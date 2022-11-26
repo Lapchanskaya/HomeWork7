@@ -68,8 +68,18 @@ public class Main {
             }
         }
 
+        // Задание 6
+        System.out.println( " Задание 6 ");
+        int contribution2 = 15_000;
+        double percent2 = 0.07;
+        int monthCount2 = 1;
+        for (; monthCount2 <= 108; monthCount2 ++) {
+            contribution2 += contribution2 * percent2;
+            if (monthCount2 % 6 == 0) {
+                System.out.println(" За " + monthCount2 + " месяцев, накопил, " + contribution2 + " рублей.");
 
-
+            }
+        }
 
 
 
