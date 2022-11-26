@@ -81,8 +81,12 @@ public class Main {
             }
         }
 
-
-
+        // Задание 7
+        System.out.println( " Задание 7 ");
+        int firstFriday =7;
+        for (int day = firstFriday; day <=31; day+=7 ){
+            System.out.println( " Сегодня пятница " + day + "-ое число. Необходимо подготовить отчет. ");
+        }
 
 
 
