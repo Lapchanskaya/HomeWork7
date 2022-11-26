@@ -21,7 +21,7 @@ public class Main {
         System.out.println( " Задание 2");
 
      int a = 0;
-    int i = 10;
+     int i = 10;
      while ( a < 10) {
          a++;
          System.out.print( a);
@@ -30,6 +30,18 @@ public class Main {
 
      for (i = 10; i >=1; i--) {
          System.out.print( i);
+     }
+
+        // Задание 3
+        System.out.println( " Задание 3");
+
+     int populationCountry = 12_000_000;
+     int birthPer1000 = 17;
+     int mortalyPer1000 = 8;
+     int increase = birthPer1000 - mortalyPer1000;
+     for ( int year = 1; year <= 10; year ++) {
+         populationCountry += populationCountry * increase / 1000;
+         System.out.println(" Год " + year + " , численность населения составляет " + populationCountry + " человек.");
      }
 
 
