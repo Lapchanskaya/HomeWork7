@@ -44,6 +44,16 @@ public class Main {
          System.out.println(" Год " + year + " , численность населения составляет " + populationCountry + " человек.");
      }
 
+        // Задание 4
+        System.out.println( " Задание 4");
+      int purpose = 12_000_000;
+      int contribution = 15_000;
+      double percent = 0.07;
+      int monthCount = 0;
+      for (; contribution <= purpose; monthCount++){
+          contribution+=contribution*percent;
+          System.out.println( " За " + monthCount + " месяцев, накопил, " + contribution+ " рублей.");
+      }
 
 
     }
