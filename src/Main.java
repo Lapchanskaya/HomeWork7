@@ -17,6 +17,22 @@ public class Main {
      }
 
 
+        // Задание 2
+        System.out.println( " Задание 2");
+
+     int a = 0;
+    int i = 10;
+     while ( a < 10) {
+         a++;
+         System.out.print( a);
+     }
+        System.out.println();
+
+     for (i = 10; i >=1; i--) {
+         System.out.print( i);
+     }
+
+
 
     }
 }
