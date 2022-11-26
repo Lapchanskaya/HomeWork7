@@ -55,6 +55,27 @@ public class Main {
           System.out.println( " За " + monthCount + " месяцев, накопил, " + contribution+ " рублей.");
       }
 
+        // Задание 5
+        System.out.println( " Задание 5 ");
+        int purpose1 = 12_000_000;
+        int contribution1 = 15_000;
+        double percent1 = 0.07;
+        int monthCount1 = 0;
+        for (; contribution1 <= purpose1; monthCount1 ++) {
+            contribution1 += contribution1 * percent1;
+            if (monthCount1 % 6 == 0) {
+                System.out.println(" За " + monthCount1 + " месяцев, накопил, " + contribution1 + " рублей.");
+            }
+        }
 
-    }
-}
+
+
+
+
+
+
+
+
+
+
+}}
