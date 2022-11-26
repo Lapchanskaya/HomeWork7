@@ -89,6 +89,20 @@ public class Main {
         }
 
 
+        // Задание 8
+        System.out.println( " Задание 8 ");
+        int year = 0;
+        int nowYear = 2022;
+        int startYear = nowYear - 200;
+        int finishYear = nowYear + 100;
+        int period = 79;
+        while ( year <= finishYear){
+            if ( year >= startYear ){
+                System.out.println( year);
+            }
+            year += period;
+        }
+
 
 
 
