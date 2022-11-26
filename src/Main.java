@@ -103,7 +103,11 @@ public class Main {
             year += period;
         }
 
-
-
+        // Задание 9
+        System.out.println( " Задание 9");
+        int h = 2;
+        for ( i = 1; i<= 10; i++){
+            System.out.println( h + " * " + i + " = " + h*i);
+      }
 
 }}
